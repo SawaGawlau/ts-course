@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "config",
+    "controllers",
+    "interfaces",
+    "middleware",
+    "models",
+    "routes",
+    "views",
+    "docs",
+    "."
+  ],
+  "ext": ".ts,.json,.pug,.yaml",
+  "ignore": ["./node_modules/**"],
+  "exec": "ts-node ./src/app.ts"
+}
