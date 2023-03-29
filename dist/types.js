@@ -52,7 +52,7 @@ const user1 = {
 const add = (x, y) => y + x;
 const sub = (x, y) => y - x;
 // Classes are used to create objects
-class Person {
+class Employee {
     // when we initialize object Person the constructor runs:
     constructor(id, name) {
         ;
@@ -62,5 +62,5 @@ class Person {
         return `${this.name} is now registered`;
     }
 }
-const Sawka = new Person(1, 'Sawka');
+const Sawka = new Employee(1, 'Sawka');
 console.log(Sawka.register());

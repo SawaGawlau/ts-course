@@ -1,5 +1,5 @@
 {
-  "name": "understanding-typescript",
+  "name": "ts-course",
   "version": "1.0.0",
   "description": "Understanding TypeScript Course Setup",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Sawa Gawlau",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.10",

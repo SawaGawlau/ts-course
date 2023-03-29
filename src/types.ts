@@ -91,7 +91,7 @@ const sub: MathFunc = (x: number, y: number): number => y - x
 
 // Classes are used to create objects
 
-class Person {
+class Employee {
   protected id: number // you can only access id within the class or in the class which extends Person
   name: string // by default it's public
 
@@ -105,5 +105,5 @@ class Person {
   }
 }
 
-const Sawka = new Person(1, 'Sawka')
+const Sawka = new Employee(1, 'Sawka')
 console.log(Sawka.register())
